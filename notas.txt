@@ -1,0 +1,27 @@
+git init: comando para iniciar git en nuestro proyecto
+1- git --version: para ver la version de git
+
+2- configuracion de git
+git config --global user.name "Pilar Hermida"
+
+comando para relacionar nuestro repositorio github a nuestro proyecto en la pc (git):git remote add origin https://github.com/pilarhermida26/clase16coder.git
+revisamos el estado de nuestro proyecto:git status
+
+comando para agregar a la lista de elementos a enviar a github:
+git add nombre del archivo (selecciona archivo en especifico)
+git add * o git add . (selecciona todo)
+
+comando para darle descripcion al cambio:
+git comit -m "mensaje descriptivo del cambio"
+
+comando para enviar nuestros cambios a github:
+git push -u origin master
+
+comando para listar nuestras ramas: 
+git branch
+
+COMANDO para crear otra rama y ubicarse en la rama creada:
+git checkout -b ramaB (NOMBRE DE LA RAMA)
+
+moverse entre ramas
+git checkout master (nombre rama)
